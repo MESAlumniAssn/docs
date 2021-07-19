@@ -44,7 +44,7 @@ It is therefore imperative that any new or changing features are accurately docu
 
 [<img src="assets/tech/python-3.svg" height="100px" width="100px"/>](https://www.python.org/doc/)&nbsp;&nbsp;&nbsp;[<img src="assets/tech/fastapi.png" height="100px" width="100px"/>](https://fastapi.tiangolo.com/)
 
-### **Datastore**
+### **Database**
 
 [<img src="assets/tech/postgresql.svg" height="40px" width="40px"/>](https://www.postgresql.org/docs/)
 
