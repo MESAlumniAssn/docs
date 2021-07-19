@@ -2,7 +2,7 @@
 
 <p align="center"><img src="assets/logo.png" /></p>
 
-<h2 align="center">The MES College Alumni Association &#174;</h2>
+<h2 style="text-align: center; font-weight: bold">The MES College Alumni Association &#174;</h2>
 
 ---
 
@@ -19,7 +19,7 @@ Before diving deep into technical details, please read further to understand the
 
 The primary consideration while determining the current website/API architecture was the overall cost. Most pages on the website built for the initial launch are static. The registration/post-registration pages are few exceptions since they connect to a data store. As a result, the website, the database and the backend API are all deployed on a basic virtual private server (VPS) with 1GB of RAM and a 25GB SSD disk. The VPS owned by **DigitalOcean**, resides in their BLR data centre. The association has been made aware that as the scope of the website increases, the infrastructure will need to be scaled up.
 
-The website uses other external services for CI/CD, emails and serving images.
+Keeping costs in mind, the project uses free/basic tiers of various external cloud based services.
 
 - For CI/CD, the project uses the free tier of **Travis CI**
 - Images are served from the free tier of **ImageKit**
