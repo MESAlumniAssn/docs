@@ -1,6 +1,6 @@
 # Introduction
 
-<p align="center"><img src="../assets/logo.png" /></p>
+<p align="center"><img src="assets/logo.png" /></p>
 
 <h2 align="center">The MES College Alumni Association &#174;</h2>
 
@@ -38,16 +38,16 @@ It is therefore imperative that any new or changing features are accurately docu
 
 ### **Frontend**
 
-[<img src="../assets/tech/next-js.svg" height="40px" width="40px"/>](https://nextjs.org/docs/getting-started)&nbsp;&nbsp;&nbsp;[<img src="../assets/tech/react-2.svg" height="40px" width="40px"/>](https://reactjs.org/)&nbsp;&nbsp;&nbsp;[<img src="../assets/tech/css3-1.svg" height="30px" width="30px"/>](https://www.w3schools.com/css/)&nbsp;&nbsp;&nbsp;[<img src="../assets/tech/material-ui-1.svg" height="40px" width="40px"/>](https://material-ui.com/)
+[<img src="assets/tech/next-js.svg" height="40px" width="40px"/>](https://nextjs.org/docs/getting-started)&nbsp;&nbsp;&nbsp;[<img src="assets/tech/react-2.svg" height="40px" width="40px"/>](https://reactjs.org/)&nbsp;&nbsp;&nbsp;[<img src="assets/tech/css3-1.svg" height="30px" width="30px"/>](https://www.w3schools.com/css/)&nbsp;&nbsp;&nbsp;[<img src="assets/tech/material-ui-1.svg" height="40px" width="40px"/>](https://material-ui.com/)
 
 ### **Backend**
 
-[<img src="../assets/tech/python-3.svg" height="100px" width="100px"/>](https://www.python.org/doc/)&nbsp;&nbsp;&nbsp;[<img src="../assets/tech/fastapi.png" height="100px" width="100px"/>](https://fastapi.tiangolo.com/)
+[<img src="assets/tech/python-3.svg" height="100px" width="100px"/>](https://www.python.org/doc/)&nbsp;&nbsp;&nbsp;[<img src="assets/tech/fastapi.png" height="100px" width="100px"/>](https://fastapi.tiangolo.com/)
 
 ### **Datastore**
 
-[<img src="../assets/tech/postgresql.svg" height="40px" width="40px"/>](https://www.postgresql.org/docs/)
+[<img src="assets/tech/postgresql.svg" height="40px" width="40px"/>](https://www.postgresql.org/docs/)
 
 ### **Other Tools and Services**
 
-[<img src="../assets/tech/github-icon-1.svg" height="40px" width="40px"/>](https://github.com)&nbsp;&nbsp;&nbsp;[<img src="../assets/tech/travis-ci-icon.svg" height="40px" width="40px"/>](https://travisci.com/)&nbsp;&nbsp;&nbsp;[<img src="../assets/tech/sendgrid-2.svg" height="100px" width="100px"/>](https://sendgrid.com/)&nbsp;&nbsp;&nbsp;[<img src="../assets/tech/imagekit.svg" height="100px" width="100px"/>](https://imagekit.io/)&nbsp;&nbsp;&nbsp;[<img src="../assets/tech/digitalocean-2.svg" height="100px" width="100px"/>](https://digitalocean.com/)&nbsp;&nbsp;&nbsp;[<img src="../assets/tech/razorpay.svg" height="100px" width="100px"/>](https://razorpay.com/)
+[<img src="assets/tech/github-icon-1.svg" height="40px" width="40px"/>](https://github.com)&nbsp;&nbsp;&nbsp;[<img src="assets/tech/travis-ci-icon.svg" height="40px" width="40px"/>](https://travisci.com/)&nbsp;&nbsp;&nbsp;[<img src="assets/tech/sendgrid-2.svg" height="100px" width="100px"/>](https://sendgrid.com/)&nbsp;&nbsp;&nbsp;[<img src="assets/tech/imagekit.svg" height="100px" width="100px"/>](https://imagekit.io/)&nbsp;&nbsp;&nbsp;[<img src="assets/tech/digitalocean-2.svg" height="100px" width="100px"/>](https://digitalocean.com/)&nbsp;&nbsp;&nbsp;[<img src="assets/tech/razorpay.svg" height="100px" width="100px"/>](https://razorpay.com/)
