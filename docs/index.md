@@ -17,7 +17,7 @@ Before diving deep into technical details, please read further to understand the
 
 ### **Keeping the costs low**
 
-The primary consideration while determining the current website/API architecture was the overall cost. Most pages on the website built for the initial launch are static. The registration/post-registration pages are few exceptions since they connect to a data store. As a result, the website, the database and the backend API are all deployed on a basic virtual private server (VPS) with 1GB of RAM and a 25GB SSD disk. The VPS owned by **DigitalOcean** resides in their BLR data centre. The association has been made aware that as the scope of the website increases, the infrastructure will need to be scaled up.
+The primary consideration while determining the current website/API architecture was the overall cost. Most pages on the website built for the initial launch are static. The registration/post-registration pages are few exceptions since they connect to a data store. As a result, the website, the database and the backend API are all deployed on a basic virtual private server (VPS) with 1GB of RAM and a 25GB SSD disk. The VPS owned by **DigitalOcean**, resides in their BLR data centre. The association has been made aware that as the scope of the website increases, the infrastructure will need to be scaled up.
 
 The website uses other external services for CI/CD, emails and serving images.
 
@@ -30,7 +30,7 @@ At the moment, the free tier's will suffice. However, if at any time, the scope 
 
 ### **Continuous Documentation**
 
-Presently, the association does not have a dedicated technical team for this project. All technical tasks (including this documentation) have been carried out by an ex-alumni. Until there is a dedicated team, upcoming work will most likely be assigned to other interested alumni or freelancers.
+Presently, the association does not have a dedicated technical team for this project. All technical tasks (including this documentation) have been carried out by an alumni. Until there is a dedicated team, upcoming work will most likely be assigned to other interested alumni or freelancers.
 
 It is therefore imperative that any new or changing features are accurately documented so that there is a smooth handover to new project personnel.
 
