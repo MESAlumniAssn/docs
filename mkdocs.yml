@@ -4,7 +4,7 @@ site_url: https://mesalumniassociation.com/
 theme:
   name: material
   palette:
-    primary: blue grey
+    primary: teal
   logo: assets/logo.png
   favicon: assets/favicon.png
   features:
@@ -16,6 +16,10 @@ theme:
   # 404 page
   static_templates:
     - 404.html
+
+copyright: Copyright &copy; 2021 The MES College Alumni Association &#174;
+repo_url: https://github.com/MESAlumniAssn/docs
+repo_name: MESAlumniAssn/docs
 
 markdown_extensions:
   - pymdownx.emoji:
