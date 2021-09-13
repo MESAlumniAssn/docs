@@ -1,6 +1,6 @@
 # Application Architecture
 
-<p align="center"><img src="https://github.com/MESAlumniAssn/docs/blob/main/docs/assets/tech/architecture.png" alt="Architecture"/></p>
+<p align="center"><img src="https://ik.imagekit.io/pwxm960evbp/MES-AA/Docs/architecture_YX5gu1O0u.png?updatedAt=1631510808110" alt="Architecture"/></p>
 
 The website sits behind **Cloudflare** which acts as the content delivery network (CDN). We are using the free tier of the CDN as the current iteration of the website does not warrant an upgrade to a paid tier.
 
@@ -12,4 +12,4 @@ We use a single **DigitalOcean** droplet running **Ubuntu 20.04 LTS** which host
 
 ## Editing the architecture diagram
 
-The diagram was created with **draw.io**. To edit the image, open the `architecture.drawio.png` file included in the `docs` repository on the draw.io website or download the **Draw.io Integration** plugin for VS Code and open the file in the VS Code editor itself.
+The diagram was created with **draw.io**. To edit the image, open the `architecture.drawio.png` file included in the `docs` repository on the draw.io website or download the **Draw.io Integration** plugin for VS Code and open the file in the VS Code editor itself. The architecture diagram is stored in the `Docs` directory on the project's **ImageKit.io** account.
