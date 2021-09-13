@@ -68,6 +68,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#developer-workflow" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -230,6 +235,75 @@
 
   
   
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Developer Workflow
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Developer Workflow
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-access" class="md-nav__link">
+    Getting access
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github-workflow" class="md-nav__link">
+    Github workflow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-cicd-pipeline" class="md-nav__link">
+    The CI/CD pipeline
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
   
     <li class="md-nav__item">
       <a href="../setup/" class="md-nav__link">
@@ -245,19 +319,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        Developer Workflow
+    <li class="md-nav__item">
+      <a href="../documentation.md" class="md-nav__link">
+        Documentation Changes
       </a>
-      
     </li>
   
 
@@ -269,6 +335,52 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-access" class="md-nav__link">
+    Getting access
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github-workflow" class="md-nav__link">
+    Github workflow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-cicd-pipeline" class="md-nav__link">
+    The CI/CD pipeline
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -279,9 +391,35 @@
                   </a>
                 
                 
-                  <h1>Developer Workflow</h1>
-                
-                
+                <h1 id="developer-workflow">Developer Workflow</h1>
+<p>Until the site went live, all changes were checked directly into the <code>main</code> branch of the respective projects. Now that we are live, following is the recommended approach for making changes in the <code>site</code>, <code>api</code> and <code>jobs</code> projects.</p>
+<p><span class="twemoji main"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 199.652c0 23.625-20.65 43.826-44.8 43.826h-99.851c16.34 17.048 18.346 49.766-6.299 70.944 14.288 22.829 2.147 53.017-16.45 62.315C353.574 425.878 322.654 448 272 448c-2.746 0-13.276-.203-16-.195-61.971.168-76.894-31.065-123.731-38.315C120.596 407.683 112 397.599 112 385.786V214.261l.002-.001c.011-18.366 10.607-35.889 28.464-43.845 28.886-12.994 95.413-49.038 107.534-77.323 7.797-18.194 21.384-29.084 40-29.092 34.222-.014 57.752 35.098 44.119 66.908-3.583 8.359-8.312 16.67-14.153 24.918H467.2c23.45 0 44.8 20.543 44.8 43.826zM96 200v192c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V200c0-13.255 10.745-24 24-24h48c13.255 0 24 10.745 24 24zM68 368c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20z"/></svg></span> Changes to <code>docs</code> can be pushed directly to the <code>main</code> branch. The below processes do not apply to the <code>docs</code> project. See <a href="documentation.md">documentation changes</a> for details to update the project documentation.</p>
+<h2 id="getting-access"><strong>Getting access</strong></h2>
+<p>It is preferred that developers use their personal Github accounts and request for access to all the repos under <strong>MESAlumniAssn</strong>.</p>
+<p>All passwords are stored in a <strong>LastPass...</strong> vault. The developers who require access to any specific service, should contact the association for specific passwords.</p>
+<h2 id="github-workflow"><strong>Github workflow</strong></h2>
+<p>Whenever there is a new feature request or a potential bug fix, the first step is to open an issue in Github using the pre-configured template. The <em>new feature</em> template exists only in the <code>mes-aa-site</code> repository where as all the projects contain the <em>bug fix</em> template.</p>
+<p>Next, create a local branch - <code>git checkout -b &lt;branch_name&gt;</code></p>
+<p>The naming convention for branches should be as follows -</p>
+<ul>
+<li>Bug fix - <strong>mes-aa-bug-issue_number</strong> Ex: <code>mes-aa-bug-#10</code></li>
+<li>New feature - <strong>mes-aa-feature-issue_number</strong> Ex: <code>mes-aa-feature-#11</code></li>
+<li>Composite (includes both a bux fix and new feature) - <strong>mes-aa-hybrid-issue_number_1-issue_number_2</strong> Ex: <code>mes-aa-hybrid-#12-#13</code></li>
+</ul>
+<p>Once the changes are complete and tested, commit the changes and push the changes to the remote repo - <code>git push origin &lt;branch_name&gt;</code>.</p>
+<p>Next, create a pull request, check for merge conflicts (if any) and merge the changes with the <code>main</code> branch and close the pull request. This will automatically close the issue as well.</p>
+<h2 id="the-cicd-pipeline"><strong>The CI/CD pipeline</strong></h2>
+<p>Once the changes are merged with <code>main</code>, the CI/CD pipeline kicks off on Travis CI (the <strong>Build pushed branches</strong> option is checked for all the repo's on Travis CI).</p>
+<p>Each project includes a <code>travis.yml</code> file with the build configuration. At the moment, tests are only included for the <code>mes-aa-site</code> repository. These tests were added merely to serve as a smoke test prior to deployment. There is an opportunity to add tests for the <code>api</code> and <code>jobs</code> projects as well.</p>
+<p>During the initial phase of the project, the developer received continuous feedback from the website committee. Due to this, the addition of tests was low on the priority list. This needs to be eventually addressed.</p>
+<p>The final step of the build, executes a shell script, <code>deploy.sh</code>. This deploys the code from the latest build on the server.</p>
+<p><span class="twemoji main"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 199.652c0 23.625-20.65 43.826-44.8 43.826h-99.851c16.34 17.048 18.346 49.766-6.299 70.944 14.288 22.829 2.147 53.017-16.45 62.315C353.574 425.878 322.654 448 272 448c-2.746 0-13.276-.203-16-.195-61.971.168-76.894-31.065-123.731-38.315C120.596 407.683 112 397.599 112 385.786V214.261l.002-.001c.011-18.366 10.607-35.889 28.464-43.845 28.886-12.994 95.413-49.038 107.534-77.323 7.797-18.194 21.384-29.084 40-29.092 34.222-.014 57.752 35.098 44.119 66.908-3.583 8.359-8.312 16.67-14.153 24.918H467.2c23.45 0 44.8 20.543 44.8 43.826zM96 200v192c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V200c0-13.255 10.745-24 24-24h48c13.255 0 24 10.745 24 24zM68 368c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20z"/></svg></span> The Python api backend uses <code>gunicorn</code> which is run as a daemon process using the <code>supervisor</code> package. Once any change is deployed for the <code>api</code> project, <code>supervisor</code> must be restarted when logged in as the <code>sudo</code> user on the server, using the command <code>sudo supervisorctl reload</code><br />
+<span class="twemoji main"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 199.652c0 23.625-20.65 43.826-44.8 43.826h-99.851c16.34 17.048 18.346 49.766-6.299 70.944 14.288 22.829 2.147 53.017-16.45 62.315C353.574 425.878 322.654 448 272 448c-2.746 0-13.276-.203-16-.195-61.971.168-76.894-31.065-123.731-38.315C120.596 407.683 112 397.599 112 385.786V214.261l.002-.001c.011-18.366 10.607-35.889 28.464-43.845 28.886-12.994 95.413-49.038 107.534-77.323 7.797-18.194 21.384-29.084 40-29.092 34.222-.014 57.752 35.098 44.119 66.908-3.583 8.359-8.312 16.67-14.153 24.918H467.2c23.45 0 44.8 20.543 44.8 43.826zM96 200v192c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V200c0-13.255 10.745-24 24-24h48c13.255 0 24 10.745 24 24zM68 368c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20z"/></svg></span> No separate restarts are needed for the <code>site</code> project. This is automatically handled in the <code>deploy.sh</code> script.</p>
+<p>For details on the pipeline and server setup, please refer to these articles <br />
+<span class="twemoji main"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8 194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg></span> <a href="https://www.codedisciples.in/linux-vps-deployment1.html">Initial setup on a Linux server</a><br />
+<span class="twemoji main"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8 194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg></span> <a href="https://www.codedisciples.in/linux-vps-deployment1.html">Deploying a Python application</a> - the article walks through a Flask app but the steps are same<br />
+<span class="twemoji main"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8 194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg></span> <a href="https://www.codedisciples.in/react-deployment.html">Deploying a react application</a><br />
+<span class="twemoji main"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8 194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg></span> <a href="https://www.codedisciples.in/travis-digitalocean.html">Setting up the CD/Cd pipeline</a><br /></p>
                 
               
               
@@ -306,7 +444,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../setup/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Project Setup" rel="prev">
+        <a href="../architecture/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Architecture" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -315,11 +453,26 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Project Setup
+              Architecture
             </div>
           </div>
         </a>
       
+      
+        
+        <a href="../setup/" class="md-footer__link md-footer__link--next" aria-label="Next: Project Setup" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Project Setup
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
       
     </nav>
   
