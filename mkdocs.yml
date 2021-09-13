@@ -24,8 +24,9 @@ repo_name: MESAlumniAssn/docs
 nav:
   - Home: "index.md"
   - Architecture: "architecture.md"
-  - Project Setup: "setup.md"
   - Developer Workflow: "workflow.md"
+  - Project Setup: "setup.md"
+  - Documentation Changes: "documentation.md"
 
 markdown_extensions:
   - pymdownx.emoji:

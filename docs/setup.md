@@ -1,6 +1,6 @@
 # Setting up the projects
 
-Following github repositories contain all the projects -
+Following github repositories under the **MESAlumniAssn** user contain all the projects -
 
 1. `mes-aa-site` - the Next.js/React website
 2. `mes-aa-api` - the Python based api
