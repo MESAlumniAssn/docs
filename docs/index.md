@@ -34,6 +34,16 @@ Presently, the association does not have a dedicated technical team for this pro
 
 It is therefore imperative that any new or changing features are accurately documented so that there is a smooth handover to new project personnel.
 
+### **What this documentation is**
+
+- A guide to set up all the projects
+- A means to understand all the project and user workflows
+
+### **What this documentation is not**
+
+- A tutorial for the different languages and frameworks used in the project
+- A detailed code walk-through
+
 ## **Technology Stack**
 
 ### **Frontend**

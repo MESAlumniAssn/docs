@@ -21,7 +21,17 @@ copyright: Copyright &copy; 2021 The MES College Alumni Association &#174;
 repo_url: https://github.com/MESAlumniAssn/docs
 repo_name: MESAlumniAssn/docs
 
+nav:
+  - Home: "index.md"
+  - Architecture: "architecture.md"
+  - Project Setup: "setup.md"
+  - Developer Workflow: "workflow.md"
+
 markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+
+extra_css:
+  - stylesheets/styles.css
