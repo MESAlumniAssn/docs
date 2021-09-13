@@ -1,6 +1,6 @@
 # Application Architecture
 
-<p align="center"><img src="assets/tech/architecture.png" alt="Architecture"/></p>
+<p align="center"><img src="https://github.com/MESAlumniAssn/docs/blob/main/docs/assets/tech/architecture.png" alt="Architecture"/></p>
 
 The website sits behind **Cloudflare** which acts as the content delivery network (CDN). We are using the free tier of the CDN as the current iteration of the website does not warrant an upgrade to a paid tier.
 
