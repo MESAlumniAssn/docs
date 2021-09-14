@@ -27,12 +27,22 @@ nav:
   - Developer Workflow: "workflow.md"
   - Project Setup: "setup.md"
   - Documentation Changes: "documentation.md"
+  - "Website":
+      - Project Structure: "website/site_structure.md"
+      - Styling: "website/site_style.md"
+      - Navbar: "website/navbar.md"
+      - Registration & Payments: "website/registration_payments.md"
+      - Admin Dashboard: "website/admin_dashboard.md"
 
 markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.superfences
   - attr_list
+  - toc:
+      permalink: true
 
 extra_css:
   - stylesheets/styles.css

@@ -44,6 +44,15 @@ It is therefore imperative that any new or changing features are accurately docu
 - A tutorial for the different languages and frameworks used in the project
 - A detailed code walk-through
 
+### **Glossary**
+
+In the documentation,
+
+- The `site` project refers to the `mes-aa-site` repository<br />
+- The `api` project refers to the `mes-aa-api` repository<br />
+- The `jobs` project refers to the `mes-aa-jobs` repository<br />
+- The `docs` project refers to the `docs` repository
+
 ## **Technology Stack**
 
 ### **Frontend**
