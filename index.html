@@ -275,6 +275,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#glossary" class="md-nav__link">
+    Glossary
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -389,6 +396,96 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" data-md-state="indeterminate" type="checkbox" id="__nav_6" checked>
+      
+      <label class="md-nav__link" for="__nav_6">
+        Website
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Website" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Website
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="website/site_structure/" class="md-nav__link">
+        Project Structure
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="website/site_style/" class="md-nav__link">
+        Styling
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="website/navbar/" class="md-nav__link">
+        Navbar
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="website/registration_payments/" class="md-nav__link">
+        Registration & Payments
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="website/admin_dashboard/" class="md-nav__link">
+        Admin Dashboard
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -446,6 +543,13 @@
           <li class="md-nav__item">
   <a href="#what-this-documentation-is-not" class="md-nav__link">
     What this documentation is not
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#glossary" class="md-nav__link">
+    Glossary
   </a>
   
 </li>
@@ -513,7 +617,7 @@
                   </a>
                 
                 
-                <h1 id="introduction">Introduction</h1>
+                <h1 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h1>
 <p align="center"><img src="assets/logo.png" /></p>
 
 <h2 style="text-align: center; font-weight: bold">The MES College Alumni Association &#174;</h2>
@@ -521,12 +625,12 @@
 <hr />
 <p>Greetings and welcome to the documentation site for <a href="https://mesalumniassociation.com">mesalumniassociation.com</a>.</p>
 <p>Before diving deep into technical details, please read further to understand the objectives and goals of the project from an operational and a technology standpoint.</p>
-<h2 id="goals"><strong>Goals</strong></h2>
+<h2 id="goals"><strong>Goals</strong><a class="headerlink" href="#goals" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Keep the operational costs low</li>
 <li>Continuous Documentation</li>
 </ol>
-<h3 id="keeping-the-costs-low"><strong>Keeping the costs low</strong></h3>
+<h3 id="keeping-the-costs-low"><strong>Keeping the costs low</strong><a class="headerlink" href="#keeping-the-costs-low" title="Permanent link">&para;</a></h3>
 <p>The primary consideration while determining the current website/API architecture was the overall cost. Most pages on the website built for the initial launch are static. The registration/post-registration pages are few exceptions since they connect to a data store. As a result, the website, the database and the backend API are all deployed on a basic virtual private server (VPS) with 1GB of RAM and a 25GB SSD disk. The VPS owned by <strong>DigitalOcean</strong>, resides in their BLR data centre. The association has been made aware that as the scope of the website increases, the infrastructure will need to be scaled up.</p>
 <p>Keeping costs in mind, the project uses free/basic tiers of various external cloud based services.</p>
 <ul>
@@ -536,27 +640,35 @@
 <li><strong>Github</strong> is the repository for the source code</li>
 </ul>
 <p>At the moment, the free tier's will suffice. However, if at any time, the scope of the project is deemed to go beyond the allowed limit of any of the free tier's, it needs to be brought to the attention of the association so that an appropriate decision can be taken.</p>
-<h3 id="continuous-documentation"><strong>Continuous Documentation</strong></h3>
+<h3 id="continuous-documentation"><strong>Continuous Documentation</strong><a class="headerlink" href="#continuous-documentation" title="Permanent link">&para;</a></h3>
 <p>Presently, the association does not have a dedicated technical team for this project. All technical tasks (including this documentation) have been carried out by an alumni. Until there is a dedicated team, upcoming work will most likely be assigned to other interested alumni or freelancers.</p>
 <p>It is therefore imperative that any new or changing features are accurately documented so that there is a smooth handover to new project personnel.</p>
-<h3 id="what-this-documentation-is"><strong>What this documentation is</strong></h3>
+<h3 id="what-this-documentation-is"><strong>What this documentation is</strong><a class="headerlink" href="#what-this-documentation-is" title="Permanent link">&para;</a></h3>
 <ul>
 <li>A guide to set up all the projects</li>
 <li>A means to understand all the project and user workflows</li>
 </ul>
-<h3 id="what-this-documentation-is-not"><strong>What this documentation is not</strong></h3>
+<h3 id="what-this-documentation-is-not"><strong>What this documentation is not</strong><a class="headerlink" href="#what-this-documentation-is-not" title="Permanent link">&para;</a></h3>
 <ul>
 <li>A tutorial for the different languages and frameworks used in the project</li>
 <li>A detailed code walk-through</li>
 </ul>
-<h2 id="technology-stack"><strong>Technology Stack</strong></h2>
-<h3 id="frontend"><strong>Frontend</strong></h3>
+<h3 id="glossary"><strong>Glossary</strong><a class="headerlink" href="#glossary" title="Permanent link">&para;</a></h3>
+<p>In the documentation,</p>
+<ul>
+<li>The <code>site</code> project refers to the <code>mes-aa-site</code> repository<br /></li>
+<li>The <code>api</code> project refers to the <code>mes-aa-api</code> repository<br /></li>
+<li>The <code>jobs</code> project refers to the <code>mes-aa-jobs</code> repository<br /></li>
+<li>The <code>docs</code> project refers to the <code>docs</code> repository</li>
+</ul>
+<h2 id="technology-stack"><strong>Technology Stack</strong><a class="headerlink" href="#technology-stack" title="Permanent link">&para;</a></h2>
+<h3 id="frontend"><strong>Frontend</strong><a class="headerlink" href="#frontend" title="Permanent link">&para;</a></h3>
 <p><a href="https://nextjs.org/docs/getting-started"><img src="assets/tech/next-js.svg" height="40px" width="40px"/></a>&nbsp;&nbsp;&nbsp;<a href="https://reactjs.org/"><img src="assets/tech/react-2.svg" height="40px" width="40px"/></a>&nbsp;&nbsp;&nbsp;<a href="https://www.w3schools.com/css/"><img src="assets/tech/css3-1.svg" height="30px" width="30px"/></a>&nbsp;&nbsp;&nbsp;<a href="https://material-ui.com/"><img src="assets/tech/material-ui-1.svg" height="40px" width="40px"/></a></p>
-<h3 id="backend"><strong>Backend</strong></h3>
+<h3 id="backend"><strong>Backend</strong><a class="headerlink" href="#backend" title="Permanent link">&para;</a></h3>
 <p><a href="https://www.python.org/doc/"><img src="assets/tech/python-3.svg" height="100px" width="100px"/></a>&nbsp;&nbsp;&nbsp;<a href="https://fastapi.tiangolo.com/"><img src="assets/tech/fastapi.png" height="100px" width="100px"/></a></p>
-<h3 id="database"><strong>Database</strong></h3>
+<h3 id="database"><strong>Database</strong><a class="headerlink" href="#database" title="Permanent link">&para;</a></h3>
 <p><a href="https://www.postgresql.org/docs/"><img src="assets/tech/postgresql.svg" height="40px" width="40px"/></a></p>
-<h3 id="other-tools-and-services"><strong>Other Tools and Services</strong></h3>
+<h3 id="other-tools-and-services"><strong>Other Tools and Services</strong><a class="headerlink" href="#other-tools-and-services" title="Permanent link">&para;</a></h3>
 <p><a href="https://github.com"><img src="assets/tech/github-icon-1.svg" height="40px" width="40px"/></a>&nbsp;&nbsp;&nbsp;<a href="https://travisci.com/"><img src="assets/tech/travis-ci-icon.svg" height="40px" width="40px"/></a>&nbsp;&nbsp;&nbsp;<a href="https://sendgrid.com/"><img src="assets/tech/sendgrid-2.svg" height="100px" width="100px"/></a>&nbsp;&nbsp;&nbsp;<a href="https://imagekit.io/"><img src="assets/tech/imagekit.svg" height="100px" width="100px"/></a>&nbsp;&nbsp;&nbsp;<a href="https://digitalocean.com/"><img src="assets/tech/digitalocean-2.svg" height="100px" width="100px"/></a>&nbsp;&nbsp;&nbsp;<a href="https://razorpay.com/"><img src="assets/tech/razorpay.svg" height="100px" width="100px"/></a></p>
                 
               
