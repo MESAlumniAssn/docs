@@ -22,7 +22,7 @@ The **Admin Panel** tab at present, contains three features.
 
 1. **Update Payment Status** - this is used to updated the payment status of the alumni who opted for manual payments during registration or renewal. Once the manual payment is realized by the Association, the concerned member can then enter the membership id of the alumnus and update the payment status to **Paid**. This updates `users.payment_status` to `true`.
 
-2. **Jobs** - this is used to display the status of all the jobs running on the server. Check the [Jobs](/jobs/introduction) section for more information about all the jobs.
+2. **Jobs** - this is used to display the status of all the jobs running on the server. Check the [Jobs](https://mesalumniassn.github.io/docs/jobs/introduction/) section for more information about all the jobs.
 
 3. **Create Event** - this form is used to create an event. Once an event is created, an email is sent out to all the active members who have not unsubscribed from email notifications. In other words if `users.email_subscription_status` is `true`, the email is sent.
 
