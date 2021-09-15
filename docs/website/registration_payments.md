@@ -27,7 +27,7 @@ For such payments, the `payment_status` column in the `users` table is set to `t
 
 On successful registration, the alumni receive a welcome email from the President and the payment receipt.
 
-![Verified Payment](/assets/tech/site/payment_verified.png)
+![Verified Payment](https://ik.imagekit.io/pwxm960evbp/MES-AA/Docs/payment_verified_2ajevYv-i.png?updatedAt=1631681323801)
 
 ### **Alternate payment method**
 
@@ -37,7 +37,7 @@ Once the record is created, the alumni will be redirected to `/paymentinfo/<emai
 
 Once the payment is realized by the Association, an association member can use the [Admin Panel](https://mesalumniassn.github.io/docs/website/admin_dashboard/#the-admin-panel) to updated the payment status.
 
-![Alternate Payment](/assets/tech/site/payment_info.png)
+![Alternate Payment](https://ik.imagekit.io/pwxm960evbp/MES-AA/Docs/payment_info_p3-XUkXlIl.png?updatedAt=1631681323764)
 
 ### **Id Card and Certificate**
 

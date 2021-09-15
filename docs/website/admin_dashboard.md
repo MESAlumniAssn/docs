@@ -31,3 +31,5 @@ The **Admin Panel** tab at present, contains three features.
 When an event is created, a corresponding folder is created in **Imagekit.io** wherein images can be added. These images will show up in the gallery for that specific event. The gallery will be visible on the page for that event - `/events/<event_id>`.
 
 If an event titled _Annual general body meeting_ is created using the **Create Event** form on the Admin Panel, then a folder named `Annual-general-body-meeting` will be created in **Imagekit.io** under `MES-AA/Events`.
+
+:fontawesome-solid-hand-point-right:{ .main } There is no image uploader functionality from the website to add images to the event gallery. This needs to be done directly in **Imagekit.io**.

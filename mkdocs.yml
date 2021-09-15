@@ -26,13 +26,20 @@ nav:
   - Architecture: "architecture.md"
   - Developer Workflow: "workflow.md"
   - Project Setup: "setup.md"
+  - Database: "database.md"
   - Documentation Changes: "documentation.md"
   - "Website":
       - Project Structure: "website/site_structure.md"
+      - Environment Variables: "website/environment.md"
       - Styling: "website/site_style.md"
       - Navbar: "website/navbar.md"
       - Registration & Payments: "website/registration_payments.md"
+      - Image Gallery: "website/gallery.md"
       - Admin Dashboard: "website/admin_dashboard.md"
+      - Update Association Data: "website/data_update.md"
+      - Association Members: "website/members.md"
+      - Famous Alumni: "website/famous_alumni.md"
+      - Testimonials: "website/testimonials.md"
 
 markdown_extensions:
   - pymdownx.emoji:
