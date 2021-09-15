@@ -31,6 +31,46 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://mesalumniassociation.com/api/api_structure/</loc>
+         <lastmod>2021-09-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mesalumniassociation.com/api/environment/</loc>
+         <lastmod>2021-09-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mesalumniassociation.com/api/routers/</loc>
+         <lastmod>2021-09-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mesalumniassociation.com/jobs/birthdays/</loc>
+         <lastmod>2021-09-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mesalumniassociation.com/jobs/database_backup/</loc>
+         <lastmod>2021-09-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mesalumniassociation.com/jobs/expiry_notifications/</loc>
+         <lastmod>2021-09-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mesalumniassociation.com/jobs/introduction/</loc>
+         <lastmod>2021-09-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mesalumniassociation.com/jobs/renewal_reminders/</loc>
+         <lastmod>2021-09-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://mesalumniassociation.com/website/admin_dashboard/</loc>
          <lastmod>2021-09-15</lastmod>
          <changefreq>daily</changefreq>
@@ -67,6 +107,11 @@
     </url>
     <url>
          <loc>https://mesalumniassociation.com/website/registration_payments/</loc>
+         <lastmod>2021-09-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mesalumniassociation.com/website/renewals/</loc>
          <lastmod>2021-09-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
