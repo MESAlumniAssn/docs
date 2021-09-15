@@ -6,6 +6,12 @@ All calls to the database are made by the **Python** api using the SQLAlchemy li
 
 Developers are required to download PostgreSQL 12 or higher for local development. As an add-on, developers can also download a tool like PgAdmin (or equivalent) to easily work with the data.
 
+When developing locally, assuming the developer is using the default PostgreSQL values, the connecting string for the database in the `.env` file, in the `api` project will look something like this -
+
+`SQLALCHEMY_DATABASE_URI=postgresql+asyncpg://postgres:postgres@127.0.0.1:5432/mes-aa`
+
+`mes-aa` here is the name of the database.
+
 ## **Models**
 
 The **Python** api contains all the model definitions in `/database.models.py`.

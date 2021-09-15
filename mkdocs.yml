@@ -40,7 +40,17 @@ nav:
       - Association Members: "website/members.md"
       - Famous Alumni: "website/famous_alumni.md"
       - Testimonials: "website/testimonials.md"
-
+      - Renewals: "website/renewals.md"
+  - "API":
+      - Project Structure: "api/api_structure.md"
+      - Environment Variables: "api/environment.md"
+      - Routers: "api/routers.md"
+  - "Jobs":
+      - Introduction: "jobs/introduction.md"
+      - Birthday Notifications: "jobs/birthdays.md"
+      - Expiry Notifications: "jobs/expiry_notifications.md"
+      - Birthday Notifications: "jobs/renewal_reminders.md"
+      - Database Backup: "jobs/database_backup.md"
 markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
