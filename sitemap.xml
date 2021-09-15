@@ -2,52 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://mesalumniassociation.com/</loc>
-         <lastmod>2021-09-14</lastmod>
+         <lastmod>2021-09-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mesalumniassociation.com/architecture/</loc>
-         <lastmod>2021-09-14</lastmod>
+         <lastmod>2021-09-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mesalumniassociation.com/database/</loc>
+         <lastmod>2021-09-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mesalumniassociation.com/documentation/</loc>
-         <lastmod>2021-09-14</lastmod>
+         <lastmod>2021-09-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mesalumniassociation.com/setup/</loc>
-         <lastmod>2021-09-14</lastmod>
+         <lastmod>2021-09-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mesalumniassociation.com/workflow/</loc>
-         <lastmod>2021-09-14</lastmod>
+         <lastmod>2021-09-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mesalumniassociation.com/website/admin_dashboard/</loc>
-         <lastmod>2021-09-14</lastmod>
+         <lastmod>2021-09-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mesalumniassociation.com/website/data_update/</loc>
+         <lastmod>2021-09-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mesalumniassociation.com/website/environment/</loc>
+         <lastmod>2021-09-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mesalumniassociation.com/website/famous_alumni/</loc>
+         <lastmod>2021-09-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mesalumniassociation.com/website/gallery/</loc>
+         <lastmod>2021-09-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mesalumniassociation.com/website/members/</loc>
+         <lastmod>2021-09-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mesalumniassociation.com/website/navbar/</loc>
-         <lastmod>2021-09-14</lastmod>
+         <lastmod>2021-09-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mesalumniassociation.com/website/registration_payments/</loc>
-         <lastmod>2021-09-14</lastmod>
+         <lastmod>2021-09-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mesalumniassociation.com/website/site_structure/</loc>
-         <lastmod>2021-09-14</lastmod>
+         <lastmod>2021-09-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mesalumniassociation.com/website/site_style/</loc>
-         <lastmod>2021-09-14</lastmod>
+         <lastmod>2021-09-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mesalumniassociation.com/website/testimonials/</loc>
+         <lastmod>2021-09-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

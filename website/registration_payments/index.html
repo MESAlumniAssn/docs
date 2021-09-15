@@ -267,6 +267,21 @@
   
   
     <li class="md-nav__item">
+      <a href="../../database/" class="md-nav__link">
+        Database
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../documentation/" class="md-nav__link">
         Documentation Changes
       </a>
@@ -287,14 +302,14 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" checked>
       
-      <label class="md-nav__link" for="__nav_6">
+      <label class="md-nav__link" for="__nav_7">
         Website
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Website" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
+        <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
           Website
         </label>
@@ -307,6 +322,18 @@
     <li class="md-nav__item">
       <a href="../site_structure/" class="md-nav__link">
         Project Structure
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../environment/" class="md-nav__link">
+        Environment Variables
       </a>
     </li>
   
@@ -421,8 +448,68 @@
   
   
     <li class="md-nav__item">
+      <a href="../gallery/" class="md-nav__link">
+        Image Gallery
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../admin_dashboard/" class="md-nav__link">
         Admin Dashboard
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data_update/" class="md-nav__link">
+        Update Association Data
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../members/" class="md-nav__link">
+        Association Members
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../famous_alumni/" class="md-nav__link">
+        Famous Alumni
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../testimonials/" class="md-nav__link">
+        Testimonials
       </a>
     </li>
   
@@ -532,12 +619,12 @@
 <p>Once the order is successfully created and the order id is returned by the api, the <code>displayRazorPay()</code> function is called within a <code>useEffect()</code>. Next, the order id and other options are passed to the checkout (<code>https://checkout.razorpay.com/v1/checkout.js</code>) to display the modal. Once a payment is made successfully, <strong>RazorPay</strong> mandates that we validate the authenticity of the details that were sent to the checkout. This is done by calling the <code>verifyPayment()</code> method which internally calls the <code>/verification</code> endpoint exposed by the <strong>Python</strong> api. If the verification is successful, the api returns a <code>null</code>. At this point, we save all our data to the <code>users</code> table in our database and the alumni is redirected to the <code>/paymentverified/&lt;id&gt;</code>.</p>
 <p>For such payments, the <code>payment_status</code> column in the <code>users</code> table is set to <code>true</code> and the <code>payment_mode</code> is set to <code>O</code> (online).</p>
 <p>On successful registration, the alumni receive a welcome email from the President and the payment receipt.</p>
-<p><img alt="Verified Payment" src="/assets/tech/site/payment_verified.png" /></p>
+<p><img alt="Verified Payment" src="https://ik.imagekit.io/pwxm960evbp/MES-AA/Docs/payment_verified_2ajevYv-i.png?updatedAt=1631681323801" /></p>
 <h3 id="alternate-payment-method"><strong>Alternate payment method</strong><a class="headerlink" href="#alternate-payment-method" title="Permanent link">&para;</a></h3>
 <p>The alumni can also opt for manual payments by means of cheques, demand drafts, or EFT's. When the <strong>SEE ALTERNATE PAYMENT OPTION</strong> button is clicked, a modal is displayed with details about the various manual payment options. Once the <strong>CONFIRM</strong> button is clicked, a record is created in the <code>users</code> table with the <code>payment_status</code> set to <code>false</code> and the <code>payment_mode</code> set to <code>M</code> (manual).</p>
 <p>Once the record is created, the alumni will be redirected to <code>/paymentinfo/&lt;email&gt;</code>. An email is containing all the payment related information is sent to the alumni.</p>
 <p>Once the payment is realized by the Association, an association member can use the <a href="https://mesalumniassn.github.io/docs/website/admin_dashboard/#the-admin-panel">Admin Panel</a> to updated the payment status.</p>
-<p><img alt="Alternate Payment" src="/assets/tech/site/payment_info.png" /></p>
+<p><img alt="Alternate Payment" src="https://ik.imagekit.io/pwxm960evbp/MES-AA/Docs/payment_info_p3-XUkXlIl.png?updatedAt=1631681323764" /></p>
 <h3 id="id-card-and-certificate"><strong>Id Card and Certificate</strong><a class="headerlink" href="#id-card-and-certificate" title="Permanent link">&para;</a></h3>
 <p>Irrespective of whether the alumni has chosen to pay online or manually, links for their id cards and certificates are generated automatically as soon as the record is inserted into the <code>users</code> table. The table contains an <code>alt_user_id</code> column which is a <code>uuid</code> generated whenever a record is inserted.</p>
 <ul>
@@ -588,13 +675,13 @@
       
       
         
-        <a href="../admin_dashboard/" class="md-footer__link md-footer__link--next" aria-label="Next: Admin Dashboard" rel="next">
+        <a href="../gallery/" class="md-footer__link md-footer__link--next" aria-label="Next: Image Gallery" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Admin Dashboard
+              Image Gallery
             </div>
           </div>
           <div class="md-footer__button md-icon">
