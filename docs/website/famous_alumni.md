@@ -1,6 +1,6 @@
 # Famous Alumni
 
-The details of the famous alumni visible in `/famousalumni` are stored in the `famous_alumni` table. Changes therefore need to be made in this table whenever there are new additions to the list.
+The details of the famous alumni visible in `/famousalumni` are stored in the `famous_alumni` table. Changes, therefore, need to be made in this table whenever there are new additions to the list.
 
 Images are available only for the Padma awardees and are stored in `MES-AA/Site_Images/Famous-Alumni` on **Imagekit.io**.
 

@@ -1,6 +1,6 @@
 # Association Members
 
-The details of the association members visible in `/about` are stored in the `committee` table. Additions or changes therefore need to be made in this table whenever there are any personnel changes.
+The details of the association members visible in `/about` are stored in the `committee` table. Additions or changes, therefore, need to be made in this table whenever there are any personnel changes.
 
 The table contains the `role` column to differentiate between Office Bearers (`role = ob`) and Management Committee Members (`role = mc`).
 

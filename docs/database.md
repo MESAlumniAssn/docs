@@ -1,8 +1,8 @@
 # The database
 
-The project uses a self hosted **PostgreSQL** database that runs on the same server as the website and the backend api.
+The project uses a self-hosted **PostgreSQL** database that runs on the same server as the website and the backend api.
 
-All calls to the database are made by the **Python** api using the SQLAlchemy library. The api uses the async flavor of the SQLAlchemy ORM for the DDL and DML logic.
+All calls to the database are made by the **Python** api using the SQLAlchemy library. The api uses the async flavour of the SQLAlchemy ORM for the DDL and DML logic.
 
 Developers are required to download PostgreSQL 12 or higher for local development. As an add-on, developers can also download a tool like PgAdmin (or equivalent) to easily work with the data.
 

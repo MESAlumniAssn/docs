@@ -1,6 +1,6 @@
 # How to update email templates?
 
-All the email templates used are designed in **SendGrid**. The dynamic templates feature was one of the reasons why **SendGrid** was chosen as the cloud email provider. The static text and images in a template can be easily changed with zeo coding.
+All the email templates used are designed in **SendGrid**. The dynamic templates feature was one of the reasons why **SendGrid** was chosen as the cloud email provider. The static text and images in a template can be easily changed with zero coding.
 
 1. Log in to the Association's [**SendGrid account**](https://app.sendgrid.com/login/)
 2. Expand **Email API** and click on the **Dynamic Templates** link<br /><br />

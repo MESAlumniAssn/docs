@@ -18,7 +18,7 @@ There are currently four standalone jobs running on the server.
 
 :fontawesome-solid-hand-point-right:{ .main } Times are local to the server
 
-The **Database Backup** job runs under the `postgres` user. The remaining jobs run under the `sudo` user. All the jobs are currently setup as cron jobs on the server.
+The **Database Backup** job runs under the `postgres` user. The remaining jobs run under the `sudo` user. All the jobs are currently set up as cron jobs on the server.
 
 ## **Checking the job status**
 

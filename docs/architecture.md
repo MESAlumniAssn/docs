@@ -14,7 +14,7 @@ We use a single **DigitalOcean** droplet running **Ubuntu 20.04 LTS** which host
 
 For error logging, both, the `site` and the `api` projects are integrated with **Sentry**. The **Sentry** dashboard logs errors from both development and production.
 
-The website is monitored using **UptimeRobot** which periodically pings to website to check if it is up.
+The website is monitored using **UptimeRobot** which periodically pings the website to check if it is up.
 
 Notification emails are sent to tech.\*\*\*\*sn@gmail.com.
 

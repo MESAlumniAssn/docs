@@ -2,7 +2,7 @@
 
 The navbar on each page contains different links. The links for each page are specified in `/utils/navLinks.js`.
 
-Let's say for instance we are adding a new route to the website called `/donations`. To add links to `/donations` in the navbar, we will first create an object called`donations` (can be named anything) in `navLinks.js`.
+Let's say for instance we are adding a new route to the website called `/donations`. To add links to `/donations` in the navbar, we will first create an object called `donations` (can be named anything) in `navLinks.js`.
 
 ```
 const donations = {

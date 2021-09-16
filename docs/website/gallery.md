@@ -10,6 +10,6 @@ There is no image upload option from the website. The Association intends to use
 
 ## **Steps to limit bandwidth usage**
 
-1. Keep the number of images in gallery limited to 50. Delete older images if required to keep the gallery fresh
+1. Keep the number of images in the gallery limited to 50. Delete older images if required to keep the gallery fresh
 2. Preferably upload images in the `.jpg` format
 3. Compress the images by running them through [tinypng.com](https://tinypng.com/) (or a similar utility) prior to uploading

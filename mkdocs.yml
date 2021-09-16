@@ -49,7 +49,7 @@ nav:
       - Introduction: "jobs/introduction.md"
       - Birthday Notifications: "jobs/birthdays.md"
       - Expiry Notifications: "jobs/expiry_notifications.md"
-      - Birthday Notifications: "jobs/renewal_reminders.md"
+      - Renewal Reminders: "jobs/renewal_reminders.md"
       - Database Backup: "jobs/database_backup.md"
   - "How To":
       - Introduction: "how_to/introduction.md"
