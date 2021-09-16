@@ -2,7 +2,7 @@
 
 The website uses **Contentful** as the CDN (content delivery network) to create and store blog posts. Blog posts, once created in **Contentful**, will automatically show up on the website.
 
-1. Log in to the Association's [**Contentful Account**](https://be.contentful.com/login)
+1. Log in to the Association's [**Contentful account**](https://be.contentful.com/login)
 2. Expand the navbar and select **The MES AA Blog** space<br /><br />
    ![Contentful Space](https://ik.imagekit.io/pwxm960evbp/MES-AA/Docs/blog-1_ufGm4DPUPW3.jpg?updatedAt=1631784280428)
 3. Click on **Add Blog** on the top-right
