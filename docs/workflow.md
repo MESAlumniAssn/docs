@@ -12,7 +12,7 @@ All passwords are stored in a **LastPass...** vault. The developers who require 
 
 ## **Github workflow**
 
-Whenever there is a new feature request or a potential bug fix, the first step is to open an issue in Github using the pre-configured template. The _new feature_ template exists only in the `mes-aa-site` repository whereas all the projects contain the _bug fix_ template.
+Whenever there is a new feature request or a potential bug fix, the first step is to open an issue in Github using the pre-configured template. All the repositories contain the _new feature_ and _bug fix_ issue templates.
 
 Next, create a local branch - `git checkout -b <branch_name>`
 
