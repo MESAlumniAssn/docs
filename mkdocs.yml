@@ -51,6 +51,12 @@ nav:
       - Expiry Notifications: "jobs/expiry_notifications.md"
       - Birthday Notifications: "jobs/renewal_reminders.md"
       - Database Backup: "jobs/database_backup.md"
+  - "How To":
+      - Introduction: "how_to/introduction.md"
+      - Create Event: "how_to/events.md"
+      - Update Gallery: "how_to/gallery.md"
+      - Create Blog Post: "how_to/blog.md"
+      - Modify Emails: "how_to/emails.md"
 markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
