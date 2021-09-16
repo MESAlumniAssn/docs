@@ -642,7 +642,7 @@
   
     <li class="md-nav__item">
       <a href="../jobs/renewal_reminders/" class="md-nav__link">
-        Birthday Notifications
+        Renewal Reminders
       </a>
     </li>
   
@@ -813,8 +813,8 @@
                 
                 
                 <h1 id="the-database">The database<a class="headerlink" href="#the-database" title="Permanent link">&para;</a></h1>
-<p>The project uses a self hosted <strong>PostgreSQL</strong> database that runs on the same server as the website and the backend api.</p>
-<p>All calls to the database are made by the <strong>Python</strong> api using the SQLAlchemy library. The api uses the async flavor of the SQLAlchemy ORM for the DDL and DML logic.</p>
+<p>The project uses a self-hosted <strong>PostgreSQL</strong> database that runs on the same server as the website and the backend api.</p>
+<p>All calls to the database are made by the <strong>Python</strong> api using the SQLAlchemy library. The api uses the async flavour of the SQLAlchemy ORM for the DDL and DML logic.</p>
 <p>Developers are required to download PostgreSQL 12 or higher for local development. As an add-on, developers can also download a tool like PgAdmin (or equivalent) to easily work with the data.</p>
 <p>When developing locally, assuming the developer is using the default PostgreSQL values, the connecting string for the database in the <code>.env</code> file, in the <code>api</code> project will look something like this -</p>
 <p><code>SQLALCHEMY_DATABASE_URI=postgresql+asyncpg://postgres:postgres@127.0.0.1:5432/mes-aa</code></p>

@@ -665,7 +665,7 @@
   
     <li class="md-nav__item">
       <a href="../../jobs/renewal_reminders/" class="md-nav__link">
-        Birthday Notifications
+        Renewal Reminders
       </a>
     </li>
   
@@ -860,7 +860,7 @@
 <p>The end to end workflow for registration.</p>
 <h3 id="completing-the-registration-form"><strong>Completing the registration form</strong><a class="headerlink" href="#completing-the-registration-form" title="Permanent link">&para;</a></h3>
 <ol>
-<li>Once the alumni navigates to the <code>/register</code> route or clicks on the <em>Membership</em> link in the navbar, they are routed to the <code>/pricing</code> page to select the membership option.</li>
+<li>Once the alumni navigate to the <code>/register</code> route or clicks on the <em>Membership</em> link in the navbar, they are routed to the <code>/pricing</code> page to select the membership option.</li>
 <li>Once a membership is selected, it is saved in the browser's local storage and the alumni are routed to <code>/register</code></li>
 <li>Once the alumni fill up all the required fields in the first three steps of the registration form, they can navigate to the fourth step which includes a summary of the membership and payment details</li>
 </ol>
@@ -869,22 +869,22 @@
 <ol>
 <li>When an alumni clicks on the <strong>PAY ONLINE</strong> button, the <strong>Razorpay</strong> modal is displayed</li>
 <li>The alumni can choose from a wide variety of pre-configured payment options to pay the membership fee</li>
-<li>If there is an issue with the payment, the payment times out and alumni is redirected to the last step of the registration process</li>
-<li>If the payment is successful, the alumni is routed to the <code>/paymentverified/&lt;id&gt;</code> route</li>
+<li>If there is an issue with the payment, the payment times out and alumni are redirected to the last step of the registration process</li>
+<li>If the payment is successful, the alumni are routed to the <code>/paymentverified/&lt;id&gt;</code> route</li>
 </ol>
 <h3 id="what-happens-when-pay-online-is-clicked"><strong>What happens when PAY ONLINE is clicked?</strong><a class="headerlink" href="#what-happens-when-pay-online-is-clicked" title="Permanent link">&para;</a></h3>
-<p>By clicking <strong>PAY ONLINE</strong> we are submitting the form. One of the first things that happens is that all the registration related data is stored in the local storage. Next, a payment order is created by the <code>createOrder()</code> function which internally calls the <code>/orders</code> endpoint exposed by the <strong>Python</strong> api.</p>
-<p>Once the order is successfully created and the order id is returned by the api, the <code>displayRazorPay()</code> function is called within a <code>useEffect()</code>. Next, the order id and other options are passed to the checkout (<code>https://checkout.razorpay.com/v1/checkout.js</code>) to display the modal. Once a payment is made successfully, <strong>RazorPay</strong> mandates that we validate the authenticity of the details that were sent to the checkout. This is done by calling the <code>verifyPayment()</code> method which internally calls the <code>/verification</code> endpoint exposed by the <strong>Python</strong> api. If the verification is successful, the api returns a <code>null</code>. At this point, we save all our data to the <code>users</code> table in our database and the alumni is redirected to the <code>/paymentverified/&lt;id&gt;</code>.</p>
+<p>By clicking <strong>PAY ONLINE</strong> we are submitting the form. One of the first things to happen is that all the registration related data is stored in the local storage. Next, a payment order is created by the <code>createOrder()</code> function which internally calls the <code>/orders</code> endpoint exposed by the <strong>Python</strong> api.</p>
+<p>Once the order is successfully created and the order id is returned by the api, the <code>displayRazorPay()</code> function is called within a <code>useEffect()</code>. Next, the order id and other options are passed to the checkout (<code>https://checkout.razorpay.com/v1/checkout.js</code>) to display the modal. Once payment is made successfully, <strong>RazorPay</strong> mandates that we validate the authenticity of the details that were sent to the checkout. This is done by calling the <code>verifyPayment()</code> method which internally calls the <code>/verification</code> endpoint exposed by the <strong>Python</strong> api. If the verification is successful, the api returns a <code>null</code>. At this point, we save all our data to the <code>users</code> table in our database and the alumni are redirected to the <code>/paymentverified/&lt;id&gt;</code>.</p>
 <p>For such payments, the <code>payment_status</code> column in the <code>users</code> table is set to <code>true</code> and the <code>payment_mode</code> is set to <code>O</code> (online).</p>
 <p>On successful registration, the alumni receive a welcome email from the President and the payment receipt.</p>
 <p><img alt="Verified Payment" src="https://ik.imagekit.io/pwxm960evbp/MES-AA/Docs/payment_verified_2ajevYv-i.png?updatedAt=1631681323801" /></p>
 <h3 id="alternate-payment-method"><strong>Alternate payment method</strong><a class="headerlink" href="#alternate-payment-method" title="Permanent link">&para;</a></h3>
-<p>The alumni can also opt for manual payments by means of cheques, demand drafts, or EFT's. When the <strong>SEE ALTERNATE PAYMENT OPTION</strong> button is clicked, a modal is displayed with details about the various manual payment options. Once the <strong>CONFIRM</strong> button is clicked, a record is created in the <code>users</code> table with the <code>payment_status</code> set to <code>false</code> and the <code>payment_mode</code> set to <code>M</code> (manual).</p>
-<p>Once the record is created, the alumni will be redirected to <code>/paymentinfo/&lt;email&gt;</code>. An email is containing all the payment related information is sent to the alumni.</p>
-<p>Once the payment is realized by the Association, an association member can use the <a href="https://mesalumniassn.github.io/docs/website/admin_dashboard/#the-admin-panel">Admin Panel</a> to updated the payment status.</p>
+<p>The alumni can also opt for manual payments through cheques, demand drafts, or EFT. When the <strong>SEE ALTERNATE PAYMENT OPTION</strong> button is clicked, a modal is displayed with details about the various manual payment options. Once the <strong>CONFIRM</strong> button is clicked, a record is created in the <code>users</code> table with the <code>payment_status</code> set to <code>false</code> and the <code>payment_mode</code> set to <code>M</code> (manual).</p>
+<p>Once the record is created, the alumni will be redirected to <code>/paymentinfo/&lt;email&gt;</code>. An email is containing all the payment-related information is sent to the alumni.</p>
+<p>Once the payment is realized by the Association, an association member can use the <a href="https://mesalumniassn.github.io/docs/website/admin_dashboard/#the-admin-panel">Admin Panel</a> to update the payment status.</p>
 <p><img alt="Alternate Payment" src="https://ik.imagekit.io/pwxm960evbp/MES-AA/Docs/payment_info_p3-XUkXlIl.png?updatedAt=1631681323764" /></p>
 <h3 id="id-card-and-certificate"><strong>Id Card and Certificate</strong><a class="headerlink" href="#id-card-and-certificate" title="Permanent link">&para;</a></h3>
-<p>Irrespective of whether the alumni has chosen to pay online or manually, links for their id cards and certificates are generated automatically as soon as the record is inserted into the <code>users</code> table. The table contains an <code>alt_user_id</code> column which is a <code>uuid</code> generated whenever a record is inserted.</p>
+<p>Irrespective of whether the alumni have chosen to pay online or manually, links for their id cards and certificates are generated automatically as soon as the record is inserted into the <code>users</code> table. The table contains an <code>alt_user_id</code> column which is a <code>UUID</code> generated whenever a record is inserted.</p>
 <ul>
 <li>Id cards for a user can be accessed at <code>/card/&lt;alt_user_id&gt;</code></li>
 <li>Certificates can be accessed at <code>/certificate/&lt;alt_user_id&gt;</code></li>

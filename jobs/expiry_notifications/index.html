@@ -637,7 +637,7 @@
   
     <li class="md-nav__item">
       <a href="../renewal_reminders/" class="md-nav__link">
-        Birthday Notifications
+        Renewal Reminders
       </a>
     </li>
   
@@ -804,7 +804,7 @@
 <p>This job sends out an email to annual members on the day their membership has expired.</p>
 <h2 id="steps"><strong>Steps</strong><a class="headerlink" href="#steps" title="Permanent link">&para;</a></h2>
 <ol>
-<li>The job first calls the <code>/recently_expired_memberships</code> endpoint to get the list of all annual members whose membership expired on the day prior to the current run date of the job</li>
+<li>The job first calls the <code>/recently_expired_memberships</code> endpoint to get the list of all annual members whose membership expired on the day before the current run date of the job</li>
 <li>All memberships returned in the response are marked as expired by updating <code>users.payment_status</code> to <code>false</code> and <code>users.membership_expired</code> to <code>true</code>.</li>
 <li>An email is then sent to all the members with a renewal link</li>
 </ol>
@@ -849,13 +849,13 @@
       
       
         
-        <a href="../renewal_reminders/" class="md-footer__link md-footer__link--next" aria-label="Next: Birthday Notifications" rel="next">
+        <a href="../renewal_reminders/" class="md-footer__link md-footer__link--next" aria-label="Next: Renewal Reminders" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Birthday Notifications
+              Renewal Reminders
             </div>
           </div>
           <div class="md-footer__button md-icon">
