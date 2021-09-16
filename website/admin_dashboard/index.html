@@ -675,6 +675,96 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" data-md-state="indeterminate" type="checkbox" id="__nav_10" checked>
+      
+      <label class="md-nav__link" for="__nav_10">
+        How To
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="How To" data-md-level="1">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          How To
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how_to/introduction/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how_to/events/" class="md-nav__link">
+        Create Event
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how_to/gallery/" class="md-nav__link">
+        Update Gallery
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how_to/blog/" class="md-nav__link">
+        Create Blog Post
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how_to/emails/" class="md-nav__link">
+        Modify Emails
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -741,32 +831,32 @@
                 <h1 id="admin-dashboard">Admin Dashboard<a class="headerlink" href="#admin-dashboard" title="Permanent link">&para;</a></h1>
 <p>The admin dashboard provides a means for the Association to keep track of memberships, funds collected and to perform admin functions like updating the payment status and creating events.</p>
 <h2 id="accessing-the-dashboard"><strong>Accessing the dashboard</strong><a class="headerlink" href="#accessing-the-dashboard" title="Permanent link">&para;</a></h2>
-<p>The route for the dashboard is <code>/dashboard/&lt;admin_id&gt;</code>. This admin id is stored as an environment variable <code>NEXT_PUBLIC_ADMIN_ID</code>. The route is protected and requires the user to login. The user id and password are stored in <strong>LastPass...</strong>.</p>
-<p>Logging into this page will redirect the user to <code>/alumniassndashboard</code>. A successful login will return a JWT from the server which subsequently needs to be sent with every called made to a dashboard related endpoint exposed by the <strong>Python</strong> api.</p>
+<p>The route for the dashboard is <code>/dashboard/&lt;admin_id&gt;</code>. This admin id is stored as an environment variable <code>NEXT_PUBLIC_ADMIN_ID</code>. The route is protected and requires the user to log in. The user id and password are stored in <strong>LastPass..</strong>.</p>
+<p>Logging in to this page will redirect the user to <code>/alumniassndashboard</code>. A successful login will return a JWT from the server which subsequently needs to be sent with every call made to a dashboard related endpoint exposed by the <strong>Python</strong> api.</p>
 <p>The <code>/alumniassndashboard</code> route contains three tabs -</p>
 <ul>
 <li>Alumni</li>
 <li>Funds</li>
 <li>Admin Panel</li>
 </ul>
-<p>The <strong>Alumni</strong> tab contains all the membership details like the counts and breakdown of the counts displayed in data grids that can be exported to <code>.csv</code> files. <strong>Funds</strong> shows the membership fees collected.</p>
+<p>The <strong>Alumni</strong> tab contains all the membership details like the counts and breakdown of the counts displayed in data grids that can be exported to <code>.csv</code> files. The <strong>Funds</strong> tab shows the membership fees collected.</p>
 <h2 id="the-admin-panel"><strong>The Admin Panel</strong><a class="headerlink" href="#the-admin-panel" title="Permanent link">&para;</a></h2>
-<p>The <strong>Admin Panel</strong> tab at present, contains three features.</p>
+<p>The <strong>Admin Panel</strong> tab at present contains three features.</p>
 <ol>
 <li>
-<p><strong>Update Payment Status</strong> - this is used to updated the payment status of the alumni who opted for manual payments during registration or renewal. Once the manual payment is realized by the Association, the concerned member can then enter the membership id of the alumnus and update the payment status to <strong>Paid</strong>. This updates <code>users.payment_status</code> to <code>true</code>.</p>
+<p><strong>Update Payment Status</strong> - this is used to update the payment status of the alumni who opted for manual payments during registration or renewal. Once the manual payment is realized by the Association, the concerned member can then enter the membership id of the alumnus and update the payment status to <strong>Paid</strong>. This updates <code>users.payment_status</code> to <code>true</code>.</p>
 </li>
 <li>
 <p><strong>Jobs</strong> - this is used to display the status of all the jobs running on the server. Check the <a href="https://mesalumniassn.github.io/docs/jobs/introduction/">Jobs</a> section for more information about all the jobs.</p>
 </li>
 <li>
-<p><strong>Create Event</strong> - this form is used to create an event. Once an event is created, an email is sent out to all the active members who have not unsubscribed from email notifications. In other words if <code>users.email_subscription_status</code> is <code>true</code>, the email is sent.</p>
+<p><strong>Create Event</strong> - this form is used to create an event. Once an event is created, an email is sent out to all the active members who have not unsubscribed from email notifications. In other words, if <code>users.email_subscription_status</code> is <code>true</code>, the email is sent.</p>
 </li>
 </ol>
 <h2 id="more-on-events"><strong>More on events</strong><a class="headerlink" href="#more-on-events" title="Permanent link">&para;</a></h2>
-<p>When an event is created, a corresponding folder is created in <strong>Imagekit.io</strong> wherein images can be added. These images will show up in the gallery for that specific event. The gallery will be visible on the page for that event - <code>/events/&lt;event_id&gt;</code>.</p>
+<p>The creation of a new event results creates a corresponding folder in <strong>Imagekit.io</strong> wherein images can be added. These images will show up in the gallery for that specific event. The gallery will be visible on the page for that event - <code>/events/&lt;event_id&gt;</code>.</p>
 <p>If an event titled <em>Annual general body meeting</em> is created using the <strong>Create Event</strong> form on the Admin Panel, then a folder named <code>Annual-general-body-meeting</code> will be created in <strong>Imagekit.io</strong> under <code>MES-AA/Events</code>.</p>
-<p><span class="twemoji main"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 199.652c0 23.625-20.65 43.826-44.8 43.826h-99.851c16.34 17.048 18.346 49.766-6.299 70.944 14.288 22.829 2.147 53.017-16.45 62.315C353.574 425.878 322.654 448 272 448c-2.746 0-13.276-.203-16-.195-61.971.168-76.894-31.065-123.731-38.315C120.596 407.683 112 397.599 112 385.786V214.261l.002-.001c.011-18.366 10.607-35.889 28.464-43.845 28.886-12.994 95.413-49.038 107.534-77.323 7.797-18.194 21.384-29.084 40-29.092 34.222-.014 57.752 35.098 44.119 66.908-3.583 8.359-8.312 16.67-14.153 24.918H467.2c23.45 0 44.8 20.543 44.8 43.826zM96 200v192c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V200c0-13.255 10.745-24 24-24h48c13.255 0 24 10.745 24 24zM68 368c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20z"/></svg></span> There is no image uploader functionality from the website to add images to the event gallery. This needs to be done directly in <strong>Imagekit.io</strong>.</p>
+<p><span class="twemoji main"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 199.652c0 23.625-20.65 43.826-44.8 43.826h-99.851c16.34 17.048 18.346 49.766-6.299 70.944 14.288 22.829 2.147 53.017-16.45 62.315C353.574 425.878 322.654 448 272 448c-2.746 0-13.276-.203-16-.195-61.971.168-76.894-31.065-123.731-38.315C120.596 407.683 112 397.599 112 385.786V214.261l.002-.001c.011-18.366 10.607-35.889 28.464-43.845 28.886-12.994 95.413-49.038 107.534-77.323 7.797-18.194 21.384-29.084 40-29.092 34.222-.014 57.752 35.098 44.119 66.908-3.583 8.359-8.312 16.67-14.153 24.918H467.2c23.45 0 44.8 20.543 44.8 43.826zM96 200v192c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V200c0-13.255 10.745-24 24-24h48c13.255 0 24 10.745 24 24zM68 368c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20z"/></svg></span> There is no image uploader functionality from the website to add images to the event gallery. The addition needs to be done directly in <strong>Imagekit.io</strong>.</p>
                 
               
               
