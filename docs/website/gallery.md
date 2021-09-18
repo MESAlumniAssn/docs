@@ -4,7 +4,7 @@ The main image gallery is located at the route `/gallery`.
 
 ## **Adding images to the gallery**
 
-Adding images should be done directly in **Imageki.io** -> `MES-AA/Gallery`.
+Adding images should be done directly in **Imagekit.io** -> `MES-AA/Gallery`.
 
 There is no image upload option from the website. The Association intends to use the free tier of **Imagekit.io** to the extent possible. The free tier currently offers 20GB of free bandwidth monthly. With the caching strategy that has been implemented, this is more than sufficient for the foreseeable future.
 

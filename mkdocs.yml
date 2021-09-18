@@ -45,6 +45,7 @@ nav:
       - Project Structure: "api/api_structure.md"
       - Environment Variables: "api/environment.md"
       - Routers: "api/routers.md"
+      - Changing Admin Password: "api/admin.md"
   - "Jobs":
       - Introduction: "jobs/introduction.md"
       - Birthday Notifications: "jobs/birthdays.md"
